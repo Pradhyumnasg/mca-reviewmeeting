@@ -1,0 +1,2657 @@
+{
+  "source": "1st IA.xlsx",
+  "academicYear": "2026-27",
+  "maxMarks": 50,
+  "subjects": [
+    {
+      "key": "ml",
+      "label": "ML",
+      "code": "MMCA311A",
+      "title": "Machine Learning",
+      "specialisation": "AI/ML",
+      "total": 64,
+      "marks": [
+        2,
+        21,
+        39,
+        2
+      ],
+      "attendance": [
+        0,
+        0,
+        1,
+        63
+      ],
+      "missingMarks": 0,
+      "missingAttendance": 0
+    },
+    {
+      "key": "dl",
+      "label": "DL",
+      "code": "MMCA311C",
+      "title": "Deep Learning",
+      "specialisation": "AI/ML",
+      "total": 64,
+      "marks": [
+        1,
+        11,
+        51,
+        1
+      ],
+      "attendance": [
+        0,
+        0,
+        4,
+        60
+      ],
+      "missingMarks": 0,
+      "missingAttendance": 0
+    },
+    {
+      "key": "cv",
+      "label": "CV",
+      "code": "MMCA311D",
+      "title": "Computer Vision",
+      "specialisation": "AI/ML",
+      "total": 64,
+      "marks": [
+        0,
+        8,
+        55,
+        1
+      ],
+      "attendance": [
+        0,
+        0,
+        9,
+        55
+      ],
+      "missingMarks": 0,
+      "missingAttendance": 0
+    },
+    {
+      "key": "projectAI",
+      "label": "PROJECT",
+      "code": "MPRJ384",
+      "title": "Project",
+      "specialisation": "AI/ML",
+      "total": 64,
+      "marks": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "attendance": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "missingMarks": 64,
+      "missingAttendance": 64
+    },
+    {
+      "key": "dmdw",
+      "label": "DM & DW",
+      "code": "MMCB311A",
+      "title": "Data Mining & Data Warehousing",
+      "specialisation": "DataScience",
+      "total": 46,
+      "marks": [
+        0,
+        4,
+        34,
+        8
+      ],
+      "attendance": [
+        9,
+        0,
+        18,
+        19
+      ],
+      "missingMarks": 0,
+      "missingAttendance": 0
+    },
+    {
+      "key": "sma",
+      "label": "SMA",
+      "code": "MMCB311C",
+      "title": "Social Media Analytics",
+      "specialisation": "DataScience",
+      "total": 46,
+      "marks": [
+        1,
+        2,
+        34,
+        9
+      ],
+      "attendance": [
+        9,
+        0,
+        18,
+        19
+      ],
+      "missingMarks": 0,
+      "missingAttendance": 0
+    },
+    {
+      "key": "sar",
+      "label": "SA using R",
+      "code": "MMCB311D",
+      "title": "Statistical Analysis Using R",
+      "specialisation": "DataScience",
+      "total": 46,
+      "marks": [
+        0,
+        2,
+        35,
+        9
+      ],
+      "attendance": [
+        9,
+        0,
+        14,
+        23
+      ],
+      "missingMarks": 0,
+      "missingAttendance": 0
+    },
+    {
+      "key": "projectDS",
+      "label": "PROJECT",
+      "code": "MPRJ384",
+      "title": "Project",
+      "specialisation": "DataScience",
+      "total": 46,
+      "marks": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "attendance": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "missingMarks": 46,
+      "missingAttendance": 46
+    }
+  ],
+  "students": [
+    {
+      "usn": "3BR25MC001",
+      "name": "A PAVANI",
+      "rollNo": 1,
+      "specialisation": "AI/ML",
+      "subjects": {
+        "ml": {
+          "marks": 28.0,
+          "att": 100.0
+        },
+        "dl": {
+          "marks": 28.0,
+          "att": 94.0
+        },
+        "cv": {
+          "marks": 36.0,
+          "att": 97.0
+        },
+        "projectAI": {}
+      }
+    },
+    {
+      "usn": "3BR25MC002",
+      "name": "ABDUL RAZAK",
+      "rollNo": 2,
+      "specialisation": "AI/ML",
+      "subjects": {
+        "ml": {
+          "marks": 26.0,
+          "att": 82.0
+        },
+        "dl": {
+          "marks": 32.0,
+          "att": 80.0
+        },
+        "cv": {
+          "marks": 37.0,
+          "att": 82.0
+        },
+        "projectAI": {}
+      }
+    },
+    {
+      "usn": "3BR25MC003",
+      "name": "ABHISHEK AKKI",
+      "rollNo": 3,
+      "specialisation": "AI/ML",
+      "subjects": {
+        "ml": {
+          "marks": 15.0,
+          "att": 83.0
+        },
+        "dl": {
+          "marks": 23.0,
+          "att": 85.0
+        },
+        "cv": {
+          "marks": 22.0,
+          "att": 84.0
+        },
+        "projectAI": {}
+      }
+    },
+    {
+      "usn": "3BR25MC004",
+      "name": "AISHWARYA B",
+      "rollNo": 4,
+      "specialisation": "AI/ML",
+      "subjects": {
+        "ml": {
+          "marks": 34.0,
+          "att": 85.0
+        },
+        "dl": {
+          "marks": 20.0,
+          "att": 85.0
+        },
+        "cv": {
+          "marks": 35.0,
+          "att": 87.0
+        },
+        "projectAI": {}
+      }
+    },
+    {
+      "usn": "3BR25MC005",
+      "name": "AKHILA VK",
+      "rollNo": 5,
+      "specialisation": "AI/ML",
+      "subjects": {
+        "ml": {
+          "marks": 29.0,
+          "att": 88.0
+        },
+        "dl": {
+          "marks": 48.0,
+          "att": 88.0
+        },
+        "cv": {
+          "marks": 41.0,
+          "att": 83.0
+        },
+        "projectAI": {}
+      }
+    },
+    {
+      "usn": "3BR25MC006",
+      "name": "AKHILESH G",
+      "rollNo": 6,
+      "specialisation": "AI/ML",
+      "subjects": {
+        "ml": {
+          "marks": 35.0,
+          "att": 76.0
+        },
+        "dl": {
+          "marks": 45.0,
+          "att": 80.0
+        },
+        "cv": {
+          "marks": 39.0,
+          "att": 77.0
+        },
+        "projectAI": {}
+      }
+    },
+    {
+      "usn": "3BR25MC007",
+      "name": "AMRUTHA",
+      "rollNo": 7,
+      "specialisation": "AI/ML",
+      "subjects": {
+        "ml": {
+          "marks": 37.0,
+          "att": 97.0
+        },
+        "dl": {
+          "marks": 41.0,
+          "att": 97.0
+        },
+        "cv": {
+          "marks": 45.0,
+          "att": 96.0
+        },
+        "projectAI": {}
+      }
+    },
+    {
+      "usn": "3BR25MC009",
+      "name": "ANJANA PRIYA",
+      "rollNo": 8,
+      "specialisation": "AI/ML",
+      "subjects": {
+        "ml": {
+          "marks": 33.0,
+          "att": 88.0
+        },
+        "dl": {
+          "marks": 44.0,
+          "att": 88.0
+        },
+        "cv": {
+          "marks": 43.0,
+          "att": 86.0
+        },
+        "projectAI": {}
+      }
+    },
+    {
+      "usn": "3BR25MC010",
+      "name": "ANJINEYA KG",
+      "rollNo": 9,
+      "specialisation": "AI/ML",
+      "subjects": {
+        "ml": {
+          "marks": 31.0,
+          "att": 83.0
+        },
+        "dl": {
+          "marks": 32.0,
+          "att": 80.0
+        },
+        "cv": {
+          "marks": 33.0,
+          "att": 81.0
+        },
+        "projectAI": {}
+      }
+    },
+    {
+      "usn": "3BR25MC011",
+      "name": "ANURAG VERMA",
+      "rollNo": 10,
+      "specialisation": "AI/ML",
+      "subjects": {
+        "ml": {
+          "marks": 32.0,
+          "att": 76.0
+        },
+        "dl": {
+          "marks": 38.0,
+          "att": 79.0
+        },
+        "cv": {
+          "marks": 35.0,
+          "att": 80.0
+        },
+        "projectAI": {}
+      }
+    },
+    {
+      "usn": "3BR25MC012",
+      "name": "ARUNA JYOTHI",
+      "rollNo": 11,
+      "specialisation": "AI/ML",
+      "subjects": {
+        "ml": {
+          "marks": 26.0,
+          "att": 79.0
+        },
+        "dl": {
+          "marks": 49.0,
+          "att": 79.0
+        },
+        "cv": {
+          "marks": 40.0,
+          "att": 78.0
+        },
+        "projectAI": {}
+      }
+    },
+    {
+      "usn": "3BR25MC014",
+      "name": "AYESHA NUFA",
+      "rollNo": 12,
+      "specialisation": "AI/ML",
+      "subjects": {
+        "ml": {
+          "marks": 34.0,
+          "att": 88.0
+        },
+        "dl": {
+          "marks": 50.0,
+          "att": 88.0
+        },
+        "cv": {
+          "marks": 40.0,
+          "att": 89.0
+        },
+        "projectAI": {}
+      }
+    },
+    {
+      "usn": "3BR25MC015",
+      "name": "AYESHA SULTANA.M",
+      "rollNo": 13,
+      "specialisation": "AI/ML",
+      "subjects": {
+        "ml": {
+          "marks": 26.0,
+          "att": 75.0
+        },
+        "dl": {
+          "marks": 36.0,
+          "att": 70.0
+        },
+        "cv": {
+          "marks": 35.0,
+          "att": 72.0
+        },
+        "projectAI": {}
+      }
+    },
+    {
+      "usn": "3BR25MC016",
+      "name": "BJ RANGANATH",
+      "rollNo": 14,
+      "specialisation": "AI/ML",
+      "subjects": {
+        "ml": {
+          "marks": 29.0,
+          "att": 81.0
+        },
+        "dl": {
+          "marks": 34.0,
+          "att": 77.0
+        },
+        "cv": {
+          "marks": 31.0,
+          "att": 74.0
+        },
+        "projectAI": {}
+      }
+    },
+    {
+      "usn": "3BR25MC017",
+      "name": "B MOUNESH",
+      "rollNo": 15,
+      "specialisation": "AI/ML",
+      "subjects": {
+        "ml": {
+          "marks": 31.0,
+          "att": 79.0
+        },
+        "dl": {
+          "marks": 37.0,
+          "att": 80.0
+        },
+        "cv": {
+          "marks": 34.0,
+          "att": 81.0
+        },
+        "projectAI": {}
+      }
+    },
+    {
+      "usn": "3BR25MC018",
+      "name": "B SAITEJA",
+      "rollNo": 16,
+      "specialisation": "AI/ML",
+      "subjects": {
+        "ml": {
+          "marks": 30.0,
+          "att": 76.0
+        },
+        "dl": {
+          "marks": 26.0,
+          "att": 76.0
+        },
+        "cv": {
+          "marks": 30.0,
+          "att": 78.0
+        },
+        "projectAI": {}
+      }
+    },
+    {
+      "usn": "3BR25MC020",
+      "name": "BHAGYASHRI",
+      "rollNo": 17,
+      "specialisation": "AI/ML",
+      "subjects": {
+        "ml": {
+          "marks": 25.0,
+          "att": 73.0
+        },
+        "dl": {
+          "marks": 46.0,
+          "att": 77.0
+        },
+        "cv": {
+          "marks": 34.0,
+          "att": 75.0
+        },
+        "projectAI": {}
+      }
+    },
+    {
+      "usn": "3BR25MC021",
+      "name": "BHUDHANUR BHUMIKA",
+      "rollNo": 18,
+      "specialisation": "AI/ML",
+      "subjects": {
+        "ml": {
+          "marks": 37.0,
+          "att": 86.0
+        },
+        "dl": {
+          "marks": 50.0,
+          "att": 86.0
+        },
+        "cv": {
+          "marks": 48.0,
+          "att": 87.0
+        },
+        "projectAI": {}
+      }
+    },
+    {
+      "usn": "3BR25MC022",
+      "name": "B.ASHWINI",
+      "rollNo": 19,
+      "specialisation": "AI/ML",
+      "subjects": {
+        "ml": {
+          "marks": 23.0,
+          "att": 79.0
+        },
+        "dl": {
+          "marks": 22.0,
+          "att": 79.0
+        },
+        "cv": {
+          "marks": 31.0,
+          "att": 80.0
+        },
+        "projectAI": {}
+      }
+    },
+    {
+      "usn": "3BR25MC023",
+      "name": "BUDDA REDDY GARI RISHITHA REDDY",
+      "rollNo": 20,
+      "specialisation": "AI/ML",
+      "subjects": {
+        "ml": {
+          "marks": 28.0,
+          "att": 75.0
+        },
+        "dl": {
+          "marks": 33.0,
+          "att": 77.0
+        },
+        "cv": {
+          "marks": 33.0,
+          "att": 77.0
+        },
+        "projectAI": {}
+      }
+    },
+    {
+      "usn": "3BR25MC024",
+      "name": "BUDURU RANJITHA",
+      "rollNo": 21,
+      "specialisation": "AI/ML",
+      "subjects": {
+        "ml": {
+          "marks": 42.0,
+          "att": 81.0
+        },
+        "dl": {
+          "marks": 50.0,
+          "att": 80.0
+        },
+        "cv": {
+          "marks": 50.0,
+          "att": 83.0
+        },
+        "projectAI": {}
+      }
+    },
+    {
+      "usn": "3BR25MC025",
+      "name": "D AKHILA REDDY",
+      "rollNo": 22,
+      "specialisation": "AI/ML",
+      "subjects": {
+        "ml": {
+          "marks": 27.0,
+          "att": 79.0
+        },
+        "dl": {
+          "marks": 34.0,
+          "att": 79.0
+        },
+        "cv": {
+          "marks": 39.0,
+          "att": 78.0
+        },
+        "projectAI": {}
+      }
+    },
+    {
+      "usn": "3BR25MC028",
+      "name": "FIRDOSE JAHAN K",
+      "rollNo": 23,
+      "specialisation": "AI/ML",
+      "subjects": {
+        "ml": {
+          "marks": 37.0,
+          "att": 78.0
+        },
+        "dl": {
+          "marks": 47.0,
+          "att": 79.0
+        },
+        "cv": {
+          "marks": 46.0,
+          "att": 79.0
+        },
+        "projectAI": {}
+      }
+    },
+    {
+      "usn": "3BR25MC029",
+      "name": "G GANESH",
+      "rollNo": 24,
+      "specialisation": "AI/ML",
+      "subjects": {
+        "ml": {
+          "marks": 33.0,
+          "att": 83.0
+        },
+        "dl": {
+          "marks": 38.0,
+          "att": 80.0
+        },
+        "cv": {
+          "marks": 44.0,
+          "att": 78.0
+        },
+        "projectAI": {}
+      }
+    },
+    {
+      "usn": "3BR25MC031",
+      "name": "GADILINGAPPA B R",
+      "rollNo": 25,
+      "specialisation": "AI/ML",
+      "subjects": {
+        "ml": {
+          "marks": 28.0,
+          "att": 78.0
+        },
+        "dl": {
+          "marks": 38.0,
+          "att": 77.0
+        },
+        "cv": {
+          "marks": 44.0,
+          "att": 76.0
+        },
+        "projectAI": {}
+      }
+    },
+    {
+      "usn": "3BR25MC032",
+      "name": "GANESH B",
+      "rollNo": 26,
+      "specialisation": "AI/ML",
+      "subjects": {
+        "ml": {
+          "marks": 20.0,
+          "att": 84.0
+        },
+        "dl": {
+          "marks": 12.0,
+          "att": 86.0
+        },
+        "cv": {
+          "marks": 21.0,
+          "att": 82.0
+        },
+        "projectAI": {}
+      }
+    },
+    {
+      "usn": "3BR25MC033",
+      "name": "GOUSIYA S",
+      "rollNo": 27,
+      "specialisation": "AI/ML",
+      "subjects": {
+        "ml": {
+          "marks": 37.0,
+          "att": 75.0
+        },
+        "dl": {
+          "marks": 42.0,
+          "att": 75.0
+        },
+        "cv": {
+          "marks": 44.0,
+          "att": 76.0
+        },
+        "projectAI": {}
+      }
+    },
+    {
+      "usn": "3BR25MC034",
+      "name": "GOWTHAMI A",
+      "rollNo": 28,
+      "specialisation": "AI/ML",
+      "subjects": {
+        "ml": {
+          "marks": 34.0,
+          "att": 94.0
+        },
+        "dl": {
+          "marks": 47.0,
+          "att": 94.0
+        },
+        "cv": {
+          "marks": 48.0,
+          "att": 97.0
+        },
+        "projectAI": {}
+      }
+    },
+    {
+      "usn": "3BR25MC035",
+      "name": "GURUPADI H",
+      "rollNo": 29,
+      "specialisation": "AI/ML",
+      "subjects": {
+        "ml": {
+          "marks": 25.0,
+          "att": 79.0
+        },
+        "dl": {
+          "marks": 32.0,
+          "att": 80.0
+        },
+        "cv": {
+          "marks": 31.0,
+          "att": 80.0
+        },
+        "projectAI": {}
+      }
+    },
+    {
+      "usn": "3BR25MC036",
+      "name": "H S ABHISHEK",
+      "rollNo": 30,
+      "specialisation": "AI/ML",
+      "subjects": {
+        "ml": {
+          "marks": 36.0,
+          "att": 76.0
+        },
+        "dl": {
+          "marks": 35.0,
+          "att": 76.0
+        },
+        "cv": {
+          "marks": 34.0,
+          "att": 75.0
+        },
+        "projectAI": {}
+      }
+    },
+    {
+      "usn": "3BR25MC037",
+      "name": "J.PRAVALIKA",
+      "rollNo": 31,
+      "specialisation": "AI/ML",
+      "subjects": {
+        "ml": {
+          "marks": 34.0,
+          "att": 81.0
+        },
+        "dl": {
+          "marks": 43.0,
+          "att": 81.0
+        },
+        "cv": {
+          "marks": 33.0,
+          "att": 82.0
+        },
+        "projectAI": {}
+      }
+    },
+    {
+      "usn": "3BR25MC039",
+      "name": "K GURURAJ",
+      "rollNo": 32,
+      "specialisation": "AI/ML",
+      "subjects": {
+        "ml": {
+          "marks": 27.0,
+          "att": 83.0
+        },
+        "dl": {
+          "marks": 28.0,
+          "att": 74.0
+        },
+        "cv": {
+          "marks": 35.0,
+          "att": 81.0
+        },
+        "projectAI": {}
+      }
+    },
+    {
+      "usn": "3BR25MC041",
+      "name": "MOHAMMED KHIZAR",
+      "rollNo": 33,
+      "specialisation": "AI/ML",
+      "subjects": {
+        "ml": {
+          "marks": 35.0,
+          "att": 88.0
+        },
+        "dl": {
+          "marks": 32.0,
+          "att": 88.0
+        },
+        "cv": {
+          "marks": 43.0,
+          "att": 89.0
+        },
+        "projectAI": {}
+      }
+    },
+    {
+      "usn": "3BR25MC043",
+      "name": "KEERTHI K",
+      "rollNo": 34,
+      "specialisation": "AI/ML",
+      "subjects": {
+        "ml": {
+          "marks": 33.0,
+          "att": 75.0
+        },
+        "dl": {
+          "marks": 49.0,
+          "att": 77.0
+        },
+        "cv": {
+          "marks": 41.0,
+          "att": 78.0
+        },
+        "projectAI": {}
+      }
+    },
+    {
+      "usn": "3BR25MC044",
+      "name": "LAKSHMI B",
+      "rollNo": 35,
+      "specialisation": "AI/ML",
+      "subjects": {
+        "ml": {
+          "marks": 20.0,
+          "att": 76.0
+        },
+        "dl": {
+          "marks": 26.0,
+          "att": 70.0
+        },
+        "cv": {
+          "marks": 39.0,
+          "att": 74.0
+        },
+        "projectAI": {}
+      }
+    },
+    {
+      "usn": "3BR25MC048",
+      "name": "M.HAZARA",
+      "rollNo": 36,
+      "specialisation": "AI/ML",
+      "subjects": {
+        "ml": {
+          "marks": 34.0,
+          "att": 84.0
+        },
+        "dl": {
+          "marks": 47.0,
+          "att": 84.0
+        },
+        "cv": {
+          "marks": 48.0,
+          "att": 86.0
+        },
+        "projectAI": {}
+      }
+    },
+    {
+      "usn": "3BR25MC050",
+      "name": "M NEELA",
+      "rollNo": 37,
+      "specialisation": "AI/ML",
+      "subjects": {
+        "ml": {
+          "marks": 37.0,
+          "att": 79.0
+        },
+        "dl": {
+          "marks": 50.0,
+          "att": 79.0
+        },
+        "cv": {
+          "marks": 50.0,
+          "att": 81.0
+        },
+        "projectAI": {}
+      }
+    },
+    {
+      "usn": "3BR25MC059",
+      "name": "MULLANGI JAYACHANDRA",
+      "rollNo": 38,
+      "specialisation": "AI/ML",
+      "subjects": {
+        "ml": {
+          "marks": 27.0,
+          "att": 75.0
+        },
+        "dl": {
+          "marks": 31.0,
+          "att": 75.0
+        },
+        "cv": {
+          "marks": 21.0,
+          "att": 74.0
+        },
+        "projectAI": {}
+      }
+    },
+    {
+      "usn": "3BR25MC061",
+      "name": "NEESHATH FATHIMA",
+      "rollNo": 39,
+      "specialisation": "AI/ML",
+      "subjects": {
+        "ml": {
+          "marks": 37.0,
+          "att": 79.0
+        },
+        "dl": {
+          "marks": 39.0,
+          "att": 79.0
+        },
+        "cv": {
+          "marks": 48.0,
+          "att": 80.0
+        },
+        "projectAI": {}
+      }
+    },
+    {
+      "usn": "3BR25MC062",
+      "name": "NIKIL KUMAR K",
+      "rollNo": 40,
+      "specialisation": "AI/ML",
+      "subjects": {
+        "ml": {
+          "marks": 34.0,
+          "att": 77.0
+        },
+        "dl": {
+          "marks": 46.0,
+          "att": 77.0
+        },
+        "cv": {
+          "marks": 48.0,
+          "att": 78.0
+        },
+        "projectAI": {}
+      }
+    },
+    {
+      "usn": "3BR25MC065",
+      "name": "PAVAN KUMAR U",
+      "rollNo": 41,
+      "specialisation": "AI/ML",
+      "subjects": {
+        "ml": {
+          "marks": 31.0,
+          "att": 80.0
+        },
+        "dl": {
+          "marks": 31.0,
+          "att": 77.0
+        },
+        "cv": {
+          "marks": 32.0,
+          "att": 73.0
+        },
+        "projectAI": {}
+      }
+    },
+    {
+      "usn": "3BR25MC067",
+      "name": "PAVITRA.R.G",
+      "rollNo": 42,
+      "specialisation": "AI/ML",
+      "subjects": {
+        "ml": {
+          "marks": 43.0,
+          "att": 81.0
+        },
+        "dl": {
+          "marks": 50.0,
+          "att": 82.0
+        },
+        "cv": {
+          "marks": 50.0,
+          "att": 83.0
+        },
+        "projectAI": {}
+      }
+    },
+    {
+      "usn": "3BR25MC069",
+      "name": "PUTTI TARUN CHAND",
+      "rollNo": 43,
+      "specialisation": "AI/ML",
+      "subjects": {
+        "ml": {
+          "marks": 28.0,
+          "att": 86.0
+        },
+        "dl": {
+          "marks": 27.0,
+          "att": 83.0
+        },
+        "cv": {
+          "marks": 25.0,
+          "att": 86.0
+        },
+        "projectAI": {}
+      }
+    },
+    {
+      "usn": "3BR25MC070",
+      "name": "R.HEMALATHA",
+      "rollNo": 44,
+      "specialisation": "AI/ML",
+      "subjects": {
+        "ml": {
+          "marks": 31.0,
+          "att": 82.0
+        },
+        "dl": {
+          "marks": 39.0,
+          "att": 82.0
+        },
+        "cv": {
+          "marks": 46.0,
+          "att": 83.0
+        },
+        "projectAI": {}
+      }
+    },
+    {
+      "usn": "3BR25MC073",
+      "name": "R YUGDEEP",
+      "rollNo": 45,
+      "specialisation": "AI/ML",
+      "subjects": {
+        "ml": {
+          "marks": 26.0,
+          "att": 84.0
+        },
+        "dl": {
+          "marks": 32.0,
+          "att": 88.0
+        },
+        "cv": {
+          "marks": 31.0,
+          "att": 86.0
+        },
+        "projectAI": {}
+      }
+    },
+    {
+      "usn": "3BR25MC075",
+      "name": "RAMESH K",
+      "rollNo": 46,
+      "specialisation": "AI/ML",
+      "subjects": {
+        "ml": {
+          "marks": 28.0,
+          "att": 79.0
+        },
+        "dl": {
+          "marks": 39.0,
+          "att": 79.0
+        },
+        "cv": {
+          "marks": 36.0,
+          "att": 80.0
+        },
+        "projectAI": {}
+      }
+    },
+    {
+      "usn": "3BR25MC077",
+      "name": "S K PRAMEYA",
+      "rollNo": 47,
+      "specialisation": "AI/ML",
+      "subjects": {
+        "ml": {
+          "marks": 35.0,
+          "att": 94.0
+        },
+        "dl": {
+          "marks": 50.0,
+          "att": 90.0
+        },
+        "cv": {
+          "marks": 50.0,
+          "att": 96.0
+        },
+        "projectAI": {}
+      }
+    },
+    {
+      "usn": "3BR25MC078",
+      "name": "SAI GANESH REDDY",
+      "rollNo": 48,
+      "specialisation": "AI/ML",
+      "subjects": {
+        "ml": {
+          "marks": 32.0,
+          "att": 86.0
+        },
+        "dl": {
+          "marks": 37.0,
+          "att": 86.0
+        },
+        "cv": {
+          "marks": 32.0,
+          "att": 83.0
+        },
+        "projectAI": {}
+      }
+    },
+    {
+      "usn": "3BR25MC079",
+      "name": "SAMIYA KHAN",
+      "rollNo": 49,
+      "specialisation": "AI/ML",
+      "subjects": {
+        "ml": {
+          "marks": 40.0,
+          "att": 75.0
+        },
+        "dl": {
+          "marks": 50.0,
+          "att": 70.0
+        },
+        "cv": {
+          "marks": 50.0,
+          "att": 72.0
+        },
+        "projectAI": {}
+      }
+    },
+    {
+      "usn": "3BR25MC080",
+      "name": "SAMRIN TAJ S",
+      "rollNo": 50,
+      "specialisation": "AI/ML",
+      "subjects": {
+        "ml": {
+          "marks": 36.0,
+          "att": 84.0
+        },
+        "dl": {
+          "marks": 46.0,
+          "att": 80.0
+        },
+        "cv": {
+          "marks": 50.0,
+          "att": 86.0
+        },
+        "projectAI": {}
+      }
+    },
+    {
+      "usn": "3BR25MC081",
+      "name": "SAMUEL U",
+      "rollNo": 51,
+      "specialisation": "AI/ML",
+      "subjects": {
+        "ml": {
+          "marks": 27.0,
+          "att": 85.0
+        },
+        "dl": {
+          "marks": 30.0,
+          "att": 78.0
+        },
+        "cv": {
+          "marks": 21.0,
+          "att": 71.0
+        },
+        "projectAI": {}
+      }
+    },
+    {
+      "usn": "3BR25MC089",
+      "name": "SHRIJEET F GHOTNEKAR",
+      "rollNo": 52,
+      "specialisation": "AI/ML",
+      "subjects": {
+        "ml": {
+          "marks": 25.0,
+          "att": 88.0
+        },
+        "dl": {
+          "marks": 25.0,
+          "att": 79.0
+        },
+        "cv": {
+          "marks": 24.0,
+          "att": 73.0
+        },
+        "projectAI": {}
+      }
+    },
+    {
+      "usn": "3BR25MC090",
+      "name": "SNEHA",
+      "rollNo": 53,
+      "specialisation": "AI/ML",
+      "subjects": {
+        "ml": {
+          "marks": 38.0,
+          "att": 79.0
+        },
+        "dl": {
+          "marks": 50.0,
+          "att": 80.0
+        },
+        "cv": {
+          "marks": 49.0,
+          "att": 81.0
+        },
+        "projectAI": {}
+      }
+    },
+    {
+      "usn": "3BR25MC091",
+      "name": "SNEHA",
+      "rollNo": 54,
+      "specialisation": "AI/ML",
+      "subjects": {
+        "ml": {
+          "marks": 38.0,
+          "att": 84.0
+        },
+        "dl": {
+          "marks": 50.0,
+          "att": 84.0
+        },
+        "cv": {
+          "marks": 50.0,
+          "att": 85.0
+        },
+        "projectAI": {}
+      }
+    },
+    {
+      "usn": "3BR25MC092",
+      "name": "SUSHMA.J",
+      "rollNo": 55,
+      "specialisation": "AI/ML",
+      "subjects": {
+        "ml": {
+          "marks": 42.0,
+          "att": 90.0
+        },
+        "dl": {
+          "marks": 47.0,
+          "att": 90.0
+        },
+        "cv": {
+          "marks": 50.0,
+          "att": 92.0
+        },
+        "projectAI": {}
+      }
+    },
+    {
+      "usn": "3BR25MC093",
+      "name": "SUSHMA KUMARI M",
+      "rollNo": 56,
+      "specialisation": "AI/ML",
+      "subjects": {
+        "ml": {
+          "marks": 36.0,
+          "att": 75.0
+        },
+        "dl": {
+          "marks": 41.0,
+          "att": 75.0
+        },
+        "cv": {
+          "marks": 48.0,
+          "att": 76.0
+        },
+        "projectAI": {}
+      }
+    },
+    {
+      "usn": "3BR25MC094",
+      "name": "SWATHI. B",
+      "rollNo": 57,
+      "specialisation": "AI/ML",
+      "subjects": {
+        "ml": {
+          "marks": 36.0,
+          "att": 78.0
+        },
+        "dl": {
+          "marks": 47.0,
+          "att": 80.0
+        },
+        "cv": {
+          "marks": 46.0,
+          "att": 81.0
+        },
+        "projectAI": {}
+      }
+    },
+    {
+      "usn": "3BR25MC096",
+      "name": "T TULASI",
+      "rollNo": 58,
+      "specialisation": "AI/ML",
+      "subjects": {
+        "ml": {
+          "marks": 45.0,
+          "att": 76.0
+        },
+        "dl": {
+          "marks": 45.0,
+          "att": 76.0
+        },
+        "cv": {
+          "marks": 42.0,
+          "att": 74.0
+        },
+        "projectAI": {}
+      }
+    },
+    {
+      "usn": "3BR25MC097",
+      "name": "TAPAL ARSHIYA",
+      "rollNo": 59,
+      "specialisation": "AI/ML",
+      "subjects": {
+        "ml": {
+          "marks": 30.0,
+          "att": 85.0
+        },
+        "dl": {
+          "marks": 33.0,
+          "att": 85.0
+        },
+        "cv": {
+          "marks": 27.0,
+          "att": 83.0
+        },
+        "projectAI": {}
+      }
+    },
+    {
+      "usn": "3BR25MC098",
+      "name": "U M NAGESHA SHARMA",
+      "rollNo": 60,
+      "specialisation": "AI/ML",
+      "subjects": {
+        "ml": {
+          "marks": 18.0,
+          "att": 82.0
+        },
+        "dl": {
+          "marks": 29.0,
+          "att": 82.0
+        },
+        "cv": {
+          "marks": 32.0,
+          "att": 84.0
+        },
+        "projectAI": {}
+      }
+    },
+    {
+      "usn": "3BR25MC102",
+      "name": "V MANASA",
+      "rollNo": 61,
+      "specialisation": "AI/ML",
+      "subjects": {
+        "ml": {
+          "marks": 35.0,
+          "att": 81.0
+        },
+        "dl": {
+          "marks": 41.0,
+          "att": 85.0
+        },
+        "cv": {
+          "marks": 46.0,
+          "att": 86.0
+        },
+        "projectAI": {}
+      }
+    },
+    {
+      "usn": "3BR25MC105",
+      "name": "VINAYAKA N",
+      "rollNo": 62,
+      "specialisation": "AI/ML",
+      "subjects": {
+        "ml": {
+          "marks": 37.0,
+          "att": 83.0
+        },
+        "dl": {
+          "marks": 44.0,
+          "att": 80.0
+        },
+        "cv": {
+          "marks": 44.0,
+          "att": 84.0
+        },
+        "projectAI": {}
+      }
+    },
+    {
+      "usn": "3BR25MC106",
+      "name": "VINIT V M",
+      "rollNo": 63,
+      "specialisation": "AI/ML",
+      "subjects": {
+        "ml": {
+          "marks": "AB",
+          "att": 89.0
+        },
+        "dl": {
+          "marks": 26.0,
+          "att": 83.0
+        },
+        "cv": {
+          "marks": 28.0,
+          "att": 86.0
+        },
+        "projectAI": {}
+      }
+    },
+    {
+      "usn": "3BR25MC108",
+      "name": "YASAR ARAFATH",
+      "rollNo": 64,
+      "specialisation": "AI/ML",
+      "subjects": {
+        "ml": {
+          "marks": "AB",
+          "att": 81.0
+        },
+        "dl": {
+          "marks": "AB",
+          "att": 80.0
+        },
+        "cv": {
+          "marks": "AB",
+          "att": 82.0
+        },
+        "projectAI": {}
+      }
+    },
+    {
+      "usn": "3BR25MC008",
+      "name": "ANIKETH RAO JANAK",
+      "rollNo": 1,
+      "specialisation": "DataScience",
+      "subjects": {
+        "dmdw": {
+          "marks": 46.0,
+          "att": 74.0
+        },
+        "sma": {
+          "marks": 40.0,
+          "att": 76.0
+        },
+        "sar": {
+          "marks": 44.0,
+          "att": 78.0
+        },
+        "projectDS": {}
+      }
+    },
+    {
+      "usn": "3BR25MC013",
+      "name": "ASMA ANJUM",
+      "rollNo": 2,
+      "specialisation": "DataScience",
+      "subjects": {
+        "dmdw": {
+          "marks": 50.0,
+          "att": 78.0
+        },
+        "sma": {
+          "marks": 48.0,
+          "att": 74.0
+        },
+        "sar": {
+          "marks": 48.0,
+          "att": 76.0
+        },
+        "projectDS": {}
+      }
+    },
+    {
+      "usn": "3BR25MC019",
+      "name": "BHAGAVAN REDDY P",
+      "rollNo": 3,
+      "specialisation": "DataScience",
+      "subjects": {
+        "dmdw": {
+          "marks": 48.0,
+          "att": 80.0
+        },
+        "sma": {
+          "marks": 45.0,
+          "att": 76.0
+        },
+        "sar": {
+          "marks": 37.0,
+          "att": 76.0
+        },
+        "projectDS": {}
+      }
+    },
+    {
+      "usn": "3BR25MC026",
+      "name": "D M ABHISHEK",
+      "rollNo": 4,
+      "specialisation": "DataScience",
+      "subjects": {
+        "dmdw": {
+          "marks": 50.0,
+          "att": 70.0
+        },
+        "sma": {
+          "marks": 46.0,
+          "att": 70.0
+        },
+        "sar": {
+          "marks": 46.0,
+          "att": 70.0
+        },
+        "projectDS": {}
+      }
+    },
+    {
+      "usn": "3BR25MC030",
+      "name": "G N SRINIVAS",
+      "rollNo": 5,
+      "specialisation": "DataScience",
+      "subjects": {
+        "dmdw": {
+          "marks": 46.0,
+          "att": 74.0
+        },
+        "sma": {
+          "marks": 42.0,
+          "att": 78.0
+        },
+        "sar": {
+          "marks": 48.0,
+          "att": 78.0
+        },
+        "projectDS": {}
+      }
+    },
+    {
+      "usn": "3BR25MC038",
+      "name": "JAYA KRISHNA REDDY M",
+      "rollNo": 6,
+      "specialisation": "DataScience",
+      "subjects": {
+        "dmdw": {
+          "marks": 39.0,
+          "att": 72.0
+        },
+        "sma": {
+          "marks": 34.0,
+          "att": 74.0
+        },
+        "sar": {
+          "marks": 41.0,
+          "att": 74.0
+        },
+        "projectDS": {}
+      }
+    },
+    {
+      "usn": "3BR25MC040",
+      "name": "K MANASA DEVI",
+      "rollNo": 7,
+      "specialisation": "DataScience",
+      "subjects": {
+        "dmdw": {
+          "marks": 39.0,
+          "att": 73.0
+        },
+        "sma": {
+          "marks": 34.0,
+          "att": 70.0
+        },
+        "sar": {
+          "marks": 42.0,
+          "att": 73.0
+        },
+        "projectDS": {}
+      }
+    },
+    {
+      "usn": "3BR25MC042",
+      "name": "KAVYA.B",
+      "rollNo": 8,
+      "specialisation": "DataScience",
+      "subjects": {
+        "dmdw": {
+          "marks": 36.0,
+          "att": 81.0
+        },
+        "sma": {
+          "marks": 34.0,
+          "att": 81.0
+        },
+        "sar": {
+          "marks": 43.0,
+          "att": 81.0
+        },
+        "projectDS": {}
+      }
+    },
+    {
+      "usn": "3BR25MC045",
+      "name": "LAKSHMI SHREYA M",
+      "rollNo": 9,
+      "specialisation": "DataScience",
+      "subjects": {
+        "dmdw": {
+          "marks": 47.0,
+          "att": 82.0
+        },
+        "sma": {
+          "marks": 50.0,
+          "att": 78.0
+        },
+        "sar": {
+          "marks": 45.0,
+          "att": 81.0
+        },
+        "projectDS": {}
+      }
+    },
+    {
+      "usn": "3BR25MC046",
+      "name": "M A TARASREE",
+      "rollNo": 10,
+      "specialisation": "DataScience",
+      "subjects": {
+        "dmdw": {
+          "marks": 47.0,
+          "att": 65.0
+        },
+        "sma": {
+          "marks": 38.0,
+          "att": 60.0
+        },
+        "sar": {
+          "marks": 44.0,
+          "att": 63.0
+        },
+        "projectDS": {}
+      }
+    },
+    {
+      "usn": "3BR25MC047",
+      "name": "M AMMULU",
+      "rollNo": 11,
+      "specialisation": "DataScience",
+      "subjects": {
+        "dmdw": {
+          "marks": 50.0,
+          "att": 85.0
+        },
+        "sma": {
+          "marks": 46.0,
+          "att": 85.0
+        },
+        "sar": {
+          "marks": 45.0,
+          "att": 85.0
+        },
+        "projectDS": {}
+      }
+    },
+    {
+      "usn": "3BR25MC049",
+      "name": "M JOSHNA REDDY",
+      "rollNo": 12,
+      "specialisation": "DataScience",
+      "subjects": {
+        "dmdw": {
+          "marks": 48.0,
+          "att": 95.0
+        },
+        "sma": {
+          "marks": "AB",
+          "att": 92.0
+        },
+        "sar": {
+          "marks": 46.0,
+          "att": 93.0
+        },
+        "projectDS": {}
+      }
+    },
+    {
+      "usn": "3BR25MC051",
+      "name": "M VENKATESH",
+      "rollNo": 13,
+      "specialisation": "DataScience",
+      "subjects": {
+        "dmdw": {
+          "marks": 40.0,
+          "att": 74.0
+        },
+        "sma": {
+          "marks": 44.0,
+          "att": 70.0
+        },
+        "sar": {
+          "marks": 45.0,
+          "att": 74.0
+        },
+        "projectDS": {}
+      }
+    },
+    {
+      "usn": "3BR25MC052",
+      "name": "MADHANKUMAR N B",
+      "rollNo": 14,
+      "specialisation": "DataScience",
+      "subjects": {
+        "dmdw": {
+          "marks": 47.0,
+          "att": 70.0
+        },
+        "sma": {
+          "marks": 36.0,
+          "att": 74.0
+        },
+        "sar": {
+          "marks": 27.0,
+          "att": 74.0
+        },
+        "projectDS": {}
+      }
+    },
+    {
+      "usn": "3BR25MC053",
+      "name": "MANOJ KUMAR",
+      "rollNo": 15,
+      "specialisation": "DataScience",
+      "subjects": {
+        "dmdw": {
+          "marks": 38.0,
+          "att": 0.0
+        },
+        "sma": {
+          "marks": 42.0,
+          "att": 0.0
+        },
+        "sar": {
+          "marks": 38.0,
+          "att": 0.0
+        },
+        "projectDS": {}
+      }
+    },
+    {
+      "usn": "3BR25MC054",
+      "name": "MASEERA FATHIMA M",
+      "rollNo": 16,
+      "specialisation": "DataScience",
+      "subjects": {
+        "dmdw": {
+          "marks": 50.0,
+          "att": 89.0
+        },
+        "sma": {
+          "marks": 45.0,
+          "att": 89.0
+        },
+        "sar": {
+          "marks": 48.0,
+          "att": 89.0
+        },
+        "projectDS": {}
+      }
+    },
+    {
+      "usn": "3BR25MC055",
+      "name": "MOHAMMED DANISH",
+      "rollNo": 17,
+      "specialisation": "DataScience",
+      "subjects": {
+        "dmdw": {
+          "marks": 25.0,
+          "att": 68.0
+        },
+        "sma": {
+          "marks": 20.0,
+          "att": 73.0
+        },
+        "sar": {
+          "marks": 28.0,
+          "att": 70.0
+        },
+        "projectDS": {}
+      }
+    },
+    {
+      "usn": "3BR25MC056",
+      "name": "MOHAMMED IMRAN",
+      "rollNo": 18,
+      "specialisation": "DataScience",
+      "subjects": {
+        "dmdw": {
+          "marks": 50.0,
+          "att": 70.0
+        },
+        "sma": {
+          "marks": 49.0,
+          "att": 72.0
+        },
+        "sar": {
+          "marks": 48.0,
+          "att": 76.0
+        },
+        "projectDS": {}
+      }
+    },
+    {
+      "usn": "3BR25MC057",
+      "name": "MOHAMMAD N ROSHAN ZAMEER",
+      "rollNo": 19,
+      "specialisation": "DataScience",
+      "subjects": {
+        "dmdw": {
+          "marks": 44.0,
+          "att": 76.0
+        },
+        "sma": {
+          "marks": 47.0,
+          "att": 76.0
+        },
+        "sar": {
+          "marks": 43.0,
+          "att": 76.0
+        },
+        "projectDS": {}
+      }
+    },
+    {
+      "usn": "3BR25MC058",
+      "name": "MOHAMMED SAMEER",
+      "rollNo": 20,
+      "specialisation": "DataScience",
+      "subjects": {
+        "dmdw": {
+          "marks": 50.0,
+          "att": 78.0
+        },
+        "sma": {
+          "marks": 32.0,
+          "att": 78.0
+        },
+        "sar": {
+          "marks": 37.0,
+          "att": 78.0
+        },
+        "projectDS": {}
+      }
+    },
+    {
+      "usn": "3BR25MC060",
+      "name": "NANDINI V H",
+      "rollNo": 21,
+      "specialisation": "DataScience",
+      "subjects": {
+        "dmdw": {
+          "marks": 50.0,
+          "att": 85.0
+        },
+        "sma": {
+          "marks": 46.0,
+          "att": 86.0
+        },
+        "sar": {
+          "marks": 45.0,
+          "att": 85.0
+        },
+        "projectDS": {}
+      }
+    },
+    {
+      "usn": "3BR25MC063",
+      "name": "NIKITHA B",
+      "rollNo": 22,
+      "specialisation": "DataScience",
+      "subjects": {
+        "dmdw": {
+          "marks": 48.0,
+          "att": 85.0
+        },
+        "sma": {
+          "marks": 46.0,
+          "att": 85.0
+        },
+        "sar": {
+          "marks": 45.0,
+          "att": 85.0
+        },
+        "projectDS": {}
+      }
+    },
+    {
+      "usn": "3BR25MC064",
+      "name": "P UMMAR FAROOQ",
+      "rollNo": 23,
+      "specialisation": "DataScience",
+      "subjects": {
+        "dmdw": {
+          "marks": 35.0,
+          "att": 0.0
+        },
+        "sma": {
+          "marks": 31.0,
+          "att": 0.0
+        },
+        "sar": {
+          "marks": 40.0,
+          "att": 0.0
+        },
+        "projectDS": {}
+      }
+    },
+    {
+      "usn": "3BR25MC066",
+      "name": "PAVANKUMAR R H",
+      "rollNo": 24,
+      "specialisation": "DataScience",
+      "subjects": {
+        "dmdw": {
+          "marks": 32.0,
+          "att": 76.0
+        },
+        "sma": {
+          "marks": 35.0,
+          "att": 74.0
+        },
+        "sar": {
+          "marks": 43.0,
+          "att": 76.0
+        },
+        "projectDS": {}
+      }
+    },
+    {
+      "usn": "3BR25MC068",
+      "name": "PRAMOD KUMAR D P",
+      "rollNo": 25,
+      "specialisation": "DataScience",
+      "subjects": {
+        "dmdw": {
+          "marks": 43.0,
+          "att": 70.0
+        },
+        "sma": {
+          "marks": 44.0,
+          "att": 74.0
+        },
+        "sar": {
+          "marks": 38.0,
+          "att": 74.0
+        },
+        "projectDS": {}
+      }
+    },
+    {
+      "usn": "3BR25MC071",
+      "name": "RK SHAILAJA",
+      "rollNo": 26,
+      "specialisation": "DataScience",
+      "subjects": {
+        "dmdw": {
+          "marks": 50.0,
+          "att": 81.0
+        },
+        "sma": {
+          "marks": 37.0,
+          "att": 81.0
+        },
+        "sar": {
+          "marks": 43.0,
+          "att": 81.0
+        },
+        "projectDS": {}
+      }
+    },
+    {
+      "usn": "3BR25MC072",
+      "name": "R SREEKARI",
+      "rollNo": 27,
+      "specialisation": "DataScience",
+      "subjects": {
+        "dmdw": {
+          "marks": 50.0,
+          "att": 78.0
+        },
+        "sma": {
+          "marks": 47.0,
+          "att": 78.0
+        },
+        "sar": {
+          "marks": 48.0,
+          "att": 78.0
+        },
+        "projectDS": {}
+      }
+    },
+    {
+      "usn": "3BR25MC076",
+      "name": "RENUKA HS",
+      "rollNo": 28,
+      "specialisation": "DataScience",
+      "subjects": {
+        "dmdw": {
+          "marks": 50.0,
+          "att": 81.0
+        },
+        "sma": {
+          "marks": 50.0,
+          "att": 81.0
+        },
+        "sar": {
+          "marks": 45.0,
+          "att": 81.0
+        },
+        "projectDS": {}
+      }
+    },
+    {
+      "usn": "3BR25MC082",
+      "name": "SANA AISHA AK",
+      "rollNo": 29,
+      "specialisation": "DataScience",
+      "subjects": {
+        "dmdw": {
+          "marks": 50.0,
+          "att": 81.0
+        },
+        "sma": {
+          "marks": 47.0,
+          "att": 81.0
+        },
+        "sar": {
+          "marks": 44.0,
+          "att": 81.0
+        },
+        "projectDS": {}
+      }
+    },
+    {
+      "usn": "3BR25MC083",
+      "name": "SANDEEP KULKARNI",
+      "rollNo": 30,
+      "specialisation": "DataScience",
+      "subjects": {
+        "dmdw": {
+          "marks": 38.0,
+          "att": 70.0
+        },
+        "sma": {
+          "marks": 34.0,
+          "att": 70.0
+        },
+        "sar": {
+          "marks": 36.0,
+          "att": 70.0
+        },
+        "projectDS": {}
+      }
+    },
+    {
+      "usn": "3BR25MC084",
+      "name": "SANDHYA",
+      "rollNo": 31,
+      "specialisation": "DataScience",
+      "subjects": {
+        "dmdw": {
+          "marks": 50.0,
+          "att": 74.0
+        },
+        "sma": {
+          "marks": 47.0,
+          "att": 74.0
+        },
+        "sar": {
+          "marks": 50.0,
+          "att": 74.0
+        },
+        "projectDS": {}
+      }
+    },
+    {
+      "usn": "3BR25MC085",
+      "name": "K SHAIK JEELAN",
+      "rollNo": 32,
+      "specialisation": "DataScience",
+      "subjects": {
+        "dmdw": {
+          "marks": 25.0,
+          "att": 19.0
+        },
+        "sma": {
+          "marks": 22.0,
+          "att": 19.0
+        },
+        "sar": {
+          "marks": "AB",
+          "att": 19.0
+        },
+        "projectDS": {}
+      }
+    },
+    {
+      "usn": "3BR25MC086",
+      "name": "SHARANU",
+      "rollNo": 33,
+      "specialisation": "DataScience",
+      "subjects": {
+        "dmdw": {
+          "marks": "AB",
+          "att": 70.0
+        },
+        "sma": {
+          "marks": "AB",
+          "att": 68.0
+        },
+        "sar": {
+          "marks": "AB",
+          "att": 75.0
+        },
+        "projectDS": {}
+      }
+    },
+    {
+      "usn": "3BR25MC087",
+      "name": "SHASHI KUMAR M",
+      "rollNo": 34,
+      "specialisation": "DataScience",
+      "subjects": {
+        "dmdw": {
+          "marks": 28.0,
+          "att": 84.0
+        },
+        "sma": {
+          "marks": 18.0,
+          "att": 80.0
+        },
+        "sar": {
+          "marks": 44.0,
+          "att": 85.0
+        },
+        "projectDS": {}
+      }
+    },
+    {
+      "usn": "3BR25MC088",
+      "name": "SHIVABASAV JULAKATTI",
+      "rollNo": 35,
+      "specialisation": "DataScience",
+      "subjects": {
+        "dmdw": {
+          "marks": 28.0,
+          "att": 65.0
+        },
+        "sma": {
+          "marks": 36.0,
+          "att": 70.0
+        },
+        "sar": {
+          "marks": 37.0,
+          "att": 68.0
+        },
+        "projectDS": {}
+      }
+    },
+    {
+      "usn": "3BR25MC095",
+      "name": "T RENUKA",
+      "rollNo": 36,
+      "specialisation": "DataScience",
+      "subjects": {
+        "dmdw": {
+          "marks": "AB",
+          "att": 74.0
+        },
+        "sma": {
+          "marks": "AB",
+          "att": 74.0
+        },
+        "sar": {
+          "marks": "AB",
+          "att": 74.0
+        },
+        "projectDS": {}
+      }
+    },
+    {
+      "usn": "3BR25MC099",
+      "name": "UM PAVAN KUMAR",
+      "rollNo": 37,
+      "specialisation": "DataScience",
+      "subjects": {
+        "dmdw": {
+          "marks": 40.0,
+          "att": 70.0
+        },
+        "sma": {
+          "marks": 38.0,
+          "att": 70.0
+        },
+        "sar": {
+          "marks": 33.0,
+          "att": 70.0
+        },
+        "projectDS": {}
+      }
+    },
+    {
+      "usn": "3BR25MC100",
+      "name": "USHA",
+      "rollNo": 38,
+      "specialisation": "DataScience",
+      "subjects": {
+        "dmdw": {
+          "marks": "AB",
+          "att": 0.0
+        },
+        "sma": {
+          "marks": "AB",
+          "att": 0.0
+        },
+        "sar": {
+          "marks": "AB",
+          "att": 0.0
+        },
+        "projectDS": {}
+      }
+    },
+    {
+      "usn": "3BR25MC101",
+      "name": "USHARANIHK",
+      "rollNo": 39,
+      "specialisation": "DataScience",
+      "subjects": {
+        "dmdw": {
+          "marks": "AB",
+          "att": 0.0
+        },
+        "sma": {
+          "marks": "AB",
+          "att": 0.0
+        },
+        "sar": {
+          "marks": "AB",
+          "att": 0.0
+        },
+        "projectDS": {}
+      }
+    },
+    {
+      "usn": "3BR25MC103",
+      "name": "VARSHA HS",
+      "rollNo": 40,
+      "specialisation": "DataScience",
+      "subjects": {
+        "dmdw": {
+          "marks": 50.0,
+          "att": 81.0
+        },
+        "sma": {
+          "marks": 48.0,
+          "att": 81.0
+        },
+        "sar": {
+          "marks": 47.0,
+          "att": 81.0
+        },
+        "projectDS": {}
+      }
+    },
+    {
+      "usn": "3BR25MC104",
+      "name": "VARUN KUMAR H G",
+      "rollNo": 41,
+      "specialisation": "DataScience",
+      "subjects": {
+        "dmdw": {
+          "marks": 38.0,
+          "att": 78.0
+        },
+        "sma": {
+          "marks": 47.0,
+          "att": 78.0
+        },
+        "sar": {
+          "marks": 47.0,
+          "att": 78.0
+        },
+        "projectDS": {}
+      }
+    },
+    {
+      "usn": "3BR25MC107",
+      "name": "Y RASAMMA",
+      "rollNo": 42,
+      "specialisation": "DataScience",
+      "subjects": {
+        "dmdw": {
+          "marks": "AB",
+          "att": 0.0
+        },
+        "sma": {
+          "marks": "AB",
+          "att": 0.0
+        },
+        "sar": {
+          "marks": "AB",
+          "att": 0.0
+        },
+        "projectDS": {}
+      }
+    },
+    {
+      "usn": "3BR25MC109",
+      "name": "YASHASWINI I M",
+      "rollNo": 43,
+      "specialisation": "DataScience",
+      "subjects": {
+        "dmdw": {
+          "marks": 35.0,
+          "att": 0.0
+        },
+        "sma": {
+          "marks": 31.0,
+          "att": 0.0
+        },
+        "sar": {
+          "marks": 40.0,
+          "att": 0.0
+        },
+        "projectDS": {}
+      }
+    },
+    {
+      "usn": "3BR24MC022",
+      "name": "INAMULLA",
+      "rollNo": 44,
+      "specialisation": "DataScience",
+      "subjects": {
+        "dmdw": {
+          "marks": "AB",
+          "att": 0.0
+        },
+        "sma": {
+          "marks": "AB",
+          "att": 0.0
+        },
+        "sar": {
+          "marks": "AB",
+          "att": 0.0
+        },
+        "projectDS": {}
+      }
+    },
+    {
+      "usn": "3BR24MC057",
+      "name": "SHIVA GANGAMMA T",
+      "rollNo": 45,
+      "specialisation": "DataScience",
+      "subjects": {
+        "dmdw": {
+          "marks": "AB",
+          "att": 70.0
+        },
+        "sma": {
+          "marks": "AB",
+          "att": 70.0
+        },
+        "sar": {
+          "marks": "AB",
+          "att": 70.0
+        },
+        "projectDS": {}
+      }
+    },
+    {
+      "usn": "3BR24MC060",
+      "name": "SIRISHA P",
+      "rollNo": 46,
+      "specialisation": "DataScience",
+      "subjects": {
+        "dmdw": {
+          "marks": "AB",
+          "att": 0.0
+        },
+        "sma": {
+          "marks": "AB",
+          "att": 0.0
+        },
+        "sar": {
+          "marks": "AB",
+          "att": 0.0
+        },
+        "projectDS": {}
+      }
+    }
+  ],
+  "reportedSummaries": [
+    {
+      "specialisation": "AI/ML",
+      "label": "NO OF STUDENTS ABSENT",
+      "values": {
+        "ml": 2,
+        "dl": 1,
+        "cv": 1,
+        "projectAI": 0
+      }
+    },
+    {
+      "specialisation": "AI/ML",
+      "label": "0-9 IA - MARKS",
+      "values": {
+        "ml": 0,
+        "dl": 0,
+        "cv": 0,
+        "projectAI": 0
+      }
+    },
+    {
+      "specialisation": "AI/ML",
+      "label": "10-20 IA - MARKS",
+      "values": {
+        "ml": 4,
+        "dl": 2,
+        "cv": 0,
+        "projectAI": 0
+      }
+    },
+    {
+      "specialisation": "AI/ML",
+      "label": "21-30 IA - MARKS",
+      "values": {
+        "ml": 21,
+        "dl": 11,
+        "cv": 9,
+        "projectAI": 0
+      }
+    },
+    {
+      "specialisation": "AI/ML",
+      "label": "0-50% attendance",
+      "values": {
+        "ml": 0,
+        "dl": 0,
+        "cv": 0,
+        "projectAI": 0
+      }
+    },
+    {
+      "specialisation": "AI/ML",
+      "label": "51-75% attendance",
+      "values": {
+        "ml": 8,
+        "dl": 7,
+        "cv": 11,
+        "projectAI": 0
+      }
+    },
+    {
+      "specialisation": "AI/ML",
+      "label": "76-84% attendance",
+      "values": {
+        "ml": 39,
+        "dl": 40,
+        "cv": 36,
+        "projectAI": 0
+      }
+    },
+    {
+      "specialisation": "AI/ML",
+      "label": "above 85 attendance",
+      "values": {
+        "ml": 17,
+        "dl": 17,
+        "cv": 17,
+        "projectAI": 0
+      }
+    },
+    {
+      "specialisation": "DataScience",
+      "label": "NO OF STUDENTS ABSENT",
+      "values": {
+        "dmdw": 8,
+        "sma": 9,
+        "sar": 9,
+        "projectDS": 0
+      }
+    },
+    {
+      "specialisation": "DataScience",
+      "label": "0-9 IA - MARKS",
+      "values": {
+        "dmdw": 0,
+        "sma": 0,
+        "sar": 0,
+        "projectDS": 0
+      }
+    },
+    {
+      "specialisation": "DataScience",
+      "label": "10-20 IA - MARKS",
+      "values": {
+        "dmdw": 0,
+        "sma": 2,
+        "sar": 0,
+        "projectDS": 0
+      }
+    },
+    {
+      "specialisation": "DataScience",
+      "label": "21-30 IA - MARKS",
+      "values": {
+        "dmdw": 4,
+        "sma": 1,
+        "sar": 2,
+        "projectDS": 0
+      }
+    },
+    {
+      "specialisation": "DataScience",
+      "label": "0-50% attendance",
+      "values": {
+        "dmdw": 9,
+        "sma": 9,
+        "sar": 9,
+        "projectDS": 0
+      }
+    },
+    {
+      "specialisation": "DataScience",
+      "label": "51-75% attendance",
+      "values": {
+        "dmdw": 18,
+        "sma": 18,
+        "sar": 15,
+        "projectDS": 0
+      }
+    },
+    {
+      "specialisation": "DataScience",
+      "label": "76-84% attendance",
+      "values": {
+        "dmdw": 14,
+        "sma": 14,
+        "sar": 16,
+        "projectDS": 0
+      }
+    },
+    {
+      "specialisation": "DataScience",
+      "label": "above 85 attendance",
+      "values": {
+        "dmdw": 5,
+        "sma": 5,
+        "sar": 6,
+        "projectDS": 0
+      }
+    }
+  ]
+}

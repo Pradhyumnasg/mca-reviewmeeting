@@ -18,7 +18,6 @@ import Attendance from "./pages/Attendance";
 import FacultyFeedback from "./pages/FacultyFeedback";
 import ThirdSemResult from "./pages/ThirdSemResult";
 import SyllabusCoverage from "./pages/SyllabusCoverage";
-import Roadmap from "./pages/Roadmap";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -45,7 +44,6 @@ const App = () => (
               <Route path="/portal/attendance" element={<Attendance />} />
               <Route path="/portal/proctoring" element={<Proctoring />} />
               <Route path="/portal/faculty-feedback" element={<FacultyFeedback />} />
-              <Route path="/portal/roadmap" element={<Roadmap />} />
             </Route>
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />

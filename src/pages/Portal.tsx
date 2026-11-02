@@ -6,7 +6,6 @@ import {
   FileText,
   BookOpen,
   Award,
-  Target,
 } from "lucide-react";
 import HeroBadge from "@/components/common/HeroBadge";
 
@@ -40,11 +39,6 @@ const portalFeatures = [
     title: "Feedback",
     icon: MessageSquare,
     path: "/portal/faculty-feedback",
-  },
-  {
-    title: "Roadmap",
-    icon: Target,
-    path: "/portal/roadmap",
   },
 ];
 

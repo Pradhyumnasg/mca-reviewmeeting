@@ -1,0 +1,248 @@
+{
+  "term": "Odd Term 2026",
+  "semester": 3,
+  "section": "A",
+  "reportDate": "02-Nov-2026 11:27:12",
+  "teaching": [
+    {
+      "slNo": 1,
+      "subjectCode": "MMCA311A",
+      "faculty": "Sharvani Channappa",
+      "scores": [
+        9.57,
+        9.48,
+        9.45,
+        9.4,
+        9.36,
+        9.33,
+        9.24,
+        9.4,
+        9.6,
+        9.5
+      ],
+      "gradePointAvg": 9.43
+    },
+    {
+      "slNo": 2,
+      "subjectCode": "MMCA311C",
+      "faculty": "Pradhyumn S G",
+      "scores": [
+        9.71,
+        9.71,
+        9.64,
+        9.64,
+        9.67,
+        9.62,
+        9.69,
+        9.62,
+        9.71,
+        9.62
+      ],
+      "gradePointAvg": 9.66
+    },
+    {
+      "slNo": 3,
+      "subjectCode": "MMCA311D",
+      "faculty": "Prakash O S",
+      "scores": [
+        9.45,
+        9.31,
+        9.31,
+        9.29,
+        9.29,
+        9.29,
+        9.38,
+        9.21,
+        9.38,
+        9.4
+      ],
+      "gradePointAvg": 9.33
+    },
+    {
+      "slNo": 4,
+      "subjectCode": "MMCB311A",
+      "faculty": "MM Harshitha",
+      "scores": [
+        9.63,
+        9.59,
+        9.56,
+        9.47,
+        9.5,
+        9.53,
+        9.5,
+        9.5,
+        9.56,
+        9.59
+      ],
+      "gradePointAvg": 9.54
+    },
+    {
+      "slNo": 5,
+      "subjectCode": "MMCB311C",
+      "faculty": "Subhashree D. C.",
+      "scores": [
+        9.59,
+        9.41,
+        9.5,
+        9.34,
+        9.31,
+        9.19,
+        9.41,
+        9.16,
+        9.41,
+        9.44
+      ],
+      "gradePointAvg": 9.38
+    },
+    {
+      "slNo": 6,
+      "subjectCode": "MMCB311D",
+      "faculty": "SDN Hayath Ali",
+      "scores": [
+        9.88,
+        9.75,
+        9.91,
+        9.78,
+        9.81,
+        9.72,
+        9.88,
+        9.69,
+        9.84,
+        9.84
+      ],
+      "gradePointAvg": 9.81
+    },
+    {
+      "slNo": 7,
+      "subjectCode": "MPRJ384",
+      "faculty": "Jennifer S",
+      "scores": [
+        9.54,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "gradePointAvg": 9.54
+    }
+  ],
+  "office": [
+    {
+      "slNo": 1,
+      "name": "LIBRARY",
+      "scores": [
+        8.67,
+        8.67,
+        8.33,
+        8.67,
+        8.33,
+        8.33
+      ],
+      "gradePointAvg": 8.5
+    },
+    {
+      "slNo": 2,
+      "name": "Admission Section",
+      "scores": [
+        8.67,
+        8.33,
+        8.67,
+        8.67,
+        null,
+        null
+      ],
+      "gradePointAvg": 8.59
+    },
+    {
+      "slNo": 3,
+      "name": "Examination Section",
+      "scores": [
+        8.33,
+        8.67,
+        8.67,
+        8.67,
+        null,
+        null
+      ],
+      "gradePointAvg": 8.59
+    },
+    {
+      "slNo": 4,
+      "name": "Account Section",
+      "scores": [
+        8.67,
+        8.67,
+        8.67,
+        8.67,
+        null,
+        null
+      ],
+      "gradePointAvg": 8.67
+    },
+    {
+      "slNo": 5,
+      "name": "Certificate Section",
+      "scores": [
+        8.67,
+        8.33,
+        8.67,
+        8.67,
+        null,
+        null
+      ],
+      "gradePointAvg": 8.59
+    }
+  ],
+  "general": [
+    {
+      "slNo": 1,
+      "name": "Interaction-with-the-Principal",
+      "gradePointAvg": 8.67
+    },
+    {
+      "slNo": 2,
+      "name": "Interaction-with-HODs",
+      "gradePointAvg": 8.67
+    },
+    {
+      "slNo": 3,
+      "name": "Response-at-the-Reception",
+      "gradePointAvg": 8.33
+    },
+    {
+      "slNo": 4,
+      "name": "Extra-Curricular-Activities",
+      "gradePointAvg": 8.67
+    },
+    {
+      "slNo": 5,
+      "name": "Discipline-in-Campus",
+      "gradePointAvg": 8.33
+    },
+    {
+      "slNo": 6,
+      "name": "Internet-Facility",
+      "gradePointAvg": 8.67
+    },
+    {
+      "slNo": 7,
+      "name": "House-Keeping-College-campus",
+      "gradePointAvg": 8.67
+    },
+    {
+      "slNo": 8,
+      "name": "Drinking-Water-Facility",
+      "gradePointAvg": 8.67
+    },
+    {
+      "slNo": 9,
+      "name": "Sports-Activity",
+      "gradePointAvg": 8.67
+    }
+  ]
+}

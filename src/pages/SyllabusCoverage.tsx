@@ -82,7 +82,7 @@ const SyllabusCoverage = () => {
             <TabsContent value="A">
               <div className="grid lg:grid-cols-2 gap-6">
                 {/* Bar Chart */}
-                <Card className="bg-card/50 backdrop-blur-sm border-border/50">
+                <Card className="bg-card border-border">
                   <CardHeader>
                     <CardTitle className="flex items-center gap-2">
                       <BookOpen className="h-5 w-5 text-primary" />
@@ -103,7 +103,7 @@ const SyllabusCoverage = () => {
                 </Card>
 
                 {/* Radial Chart */}
-                <Card className="bg-card/50 backdrop-blur-sm border-border/50">
+                <Card className="bg-card border-border">
                   <CardHeader>
                     <CardTitle className="flex items-center gap-2">
                       <BookOpen className="h-5 w-5 text-secondary" />
@@ -167,7 +167,7 @@ const SyllabusCoverage = () => {
             <TabsContent value="B">
               <div className="grid lg:grid-cols-2 gap-6">
                 {/* Bar Chart */}
-                <Card className="bg-card/50 backdrop-blur-sm border-border/50">
+                <Card className="bg-card border-border">
                   <CardHeader>
                     <CardTitle className="flex items-center gap-2">
                       <BookOpen className="h-5 w-5 text-primary" />
@@ -188,7 +188,7 @@ const SyllabusCoverage = () => {
                 </Card>
 
                 {/* Radial Chart */}
-                <Card className="bg-card/50 backdrop-blur-sm border-border/50">
+                <Card className="bg-card border-border">
                   <CardHeader>
                     <CardTitle className="flex items-center gap-2">
                       <BookOpen className="h-5 w-5 text-secondary" />
