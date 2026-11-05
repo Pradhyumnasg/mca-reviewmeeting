@@ -100,7 +100,7 @@ interface Club {
   events: Event[];
 }
 
-const Events = () => {
+const Events = ({ review = false }: { review?: boolean }) => {
   const [selectedClub, setSelectedClub] = useState<Club | null>(null);
 
   return (
@@ -110,7 +110,7 @@ const Events = () => {
         <div className="container mx-auto px-4 text-center">
           <HeroBadge />
           <h1 className="animate-fade-in font-serif text-4xl font-bold text-white md:text-6xl">
-            Clubs & Activities
+            {review ? "Events conducted" : "Clubs & Activities"}
           </h1>
           <p className="mx-auto mt-4 max-w-2xl animate-slide-up text-lg text-white/80 md:text-xl">
             Explore our vibrant clubs fostering creativity, sports, technology, and personal growth

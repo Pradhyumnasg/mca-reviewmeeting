@@ -1,0 +1,789 @@
+{
+  "source": "2nd SEM SEE Result Analysis.xlsx",
+  "period": "August 2026",
+  "subjects": [
+    {
+      "name": "DATA ANALYTICS USING PYTHON",
+      "code": "MMC201"
+    },
+    {
+      "name": "OOPs with JAVA",
+      "code": "MMC202"
+    },
+    {
+      "name": "DSA",
+      "code": "MMC203"
+    },
+    {
+      "name": "SE",
+      "code": "MMC204"
+    },
+    {
+      "name": "WAD",
+      "code": "MMC205"
+    },
+    {
+      "name": "JAVA LAB",
+      "code": "MMCL206"
+    },
+    {
+      "name": "DSA LAB",
+      "code": "MMCL207"
+    }
+  ],
+  "summary": {
+    "label": "Overall",
+    "students": 108,
+    "appeared": 108,
+    "fcd": 92,
+    "fc": 0,
+    "failed": 16,
+    "reportedRate": 0.8518518518518519
+  },
+  "sections": [
+    {
+      "label": "Section A",
+      "students": 51,
+      "appeared": 51,
+      "fcd": 45,
+      "fc": 0,
+      "failed": 6,
+      "reportedRate": 0.8823529411764706
+    },
+    {
+      "label": "Section B",
+      "students": 57,
+      "appeared": 57,
+      "fcd": 47,
+      "fc": 0,
+      "failed": 10,
+      "reportedRate": 0.8392857142857143
+    }
+  ],
+  "original": [
+    {
+      "usn": "3BR25MC003",
+      "name": "ABHISHEK MAHANTESH AKKI",
+      "reportedFailedSubjects": 1,
+      "subjects": {
+        "MMC203": {
+          "cie": 44,
+          "see": 15,
+          "total": 59,
+          "grade": "F"
+        }
+      }
+    },
+    {
+      "usn": "3BR25MC022",
+      "name": "BOLLINENI ASWINI",
+      "reportedFailedSubjects": 1,
+      "subjects": {
+        "MMC201": {
+          "cie": 41,
+          "see": 17,
+          "total": 58,
+          "grade": "F"
+        }
+      }
+    },
+    {
+      "usn": "3BR25MC027",
+      "name": "FARIYA FATHIMA",
+      "reportedFailedSubjects": "4 + 1 (1st SEM - DMS)",
+      "subjects": {
+        "MMC201": {
+          "cie": 38,
+          "see": 7,
+          "total": 45,
+          "grade": "F"
+        },
+        "MMC202": {
+          "cie": 34,
+          "see": 17,
+          "total": 51,
+          "grade": "F"
+        },
+        "MMC203": {
+          "cie": 38,
+          "see": 9,
+          "total": 47,
+          "grade": "F"
+        },
+        "MMC205": {
+          "cie": 37,
+          "see": 12,
+          "total": 49,
+          "grade": "F"
+        }
+      }
+    },
+    {
+      "usn": "3BR25MC032",
+      "name": "GANESH B",
+      "reportedFailedSubjects": 4,
+      "subjects": {
+        "MMC201": {
+          "cie": 38,
+          "see": 15,
+          "total": 53,
+          "grade": "F"
+        },
+        "MMC202": {
+          "cie": 35,
+          "see": 13,
+          "total": 48,
+          "grade": "F"
+        },
+        "MMC203": {
+          "cie": 38,
+          "see": 11,
+          "total": 49,
+          "grade": "F"
+        },
+        "MMC204": {
+          "cie": 39,
+          "see": 8,
+          "total": 47,
+          "grade": "F"
+        }
+      }
+    },
+    {
+      "usn": "3BR25MC039",
+      "name": "K GURURAJ",
+      "reportedFailedSubjects": 1,
+      "subjects": {
+        "MMC201": {
+          "cie": 40,
+          "see": 18,
+          "total": 58,
+          "grade": "F"
+        }
+      }
+    },
+    {
+      "usn": "3BR25MC041",
+      "name": "K MOHAMMED KHIZAR",
+      "reportedFailedSubjects": 1,
+      "subjects": {
+        "MMC201": {
+          "cie": 44,
+          "see": 16,
+          "total": 60,
+          "grade": "F"
+        }
+      }
+    },
+    {
+      "usn": "3BR25MC073",
+      "name": "R YUGDEEP",
+      "reportedFailedSubjects": 2,
+      "subjects": {
+        "MMC203": {
+          "cie": 40,
+          "see": 12,
+          "total": 52,
+          "grade": "F"
+        },
+        "MMCL207": {
+          "cie": 48,
+          "see": 10,
+          "total": 58,
+          "grade": "X"
+        }
+      }
+    },
+    {
+      "usn": "3BR25MC078",
+      "name": "SAI GANESH REDDY K",
+      "reportedFailedSubjects": 1,
+      "subjects": {
+        "MMC201": {
+          "cie": 46,
+          "see": 11,
+          "total": 57,
+          "grade": "X"
+        }
+      }
+    },
+    {
+      "usn": "3BR25MC081",
+      "name": "SAMUEL U",
+      "reportedFailedSubjects": 3,
+      "subjects": {
+        "MMC201": {
+          "cie": 39,
+          "see": 17,
+          "total": 56,
+          "grade": "F"
+        },
+        "MMC203": {
+          "cie": 40,
+          "see": 14,
+          "total": 54,
+          "grade": "F"
+        },
+        "MMCL207": {
+          "cie": 41,
+          "see": 10,
+          "total": 51,
+          "grade": "F"
+        }
+      }
+    },
+    {
+      "usn": "3BR25MC083",
+      "name": "SANDEEP KULKARNI",
+      "reportedFailedSubjects": 1,
+      "subjects": {
+        "MMC203": {
+          "cie": 46,
+          "see": 16,
+          "total": 62,
+          "grade": "X"
+        }
+      }
+    },
+    {
+      "usn": "3BR25MC085",
+      "name": "SHAIK JEELAN K",
+      "reportedFailedSubjects": 3,
+      "subjects": {
+        "MMC201": {
+          "cie": 35,
+          "see": 8,
+          "total": 43,
+          "grade": "F"
+        },
+        "MMC203": {
+          "cie": 37,
+          "see": 12,
+          "total": 49,
+          "grade": "F"
+        },
+        "MMC205": {
+          "cie": 34,
+          "see": 11,
+          "total": 45,
+          "grade": "F"
+        }
+      }
+    },
+    {
+      "usn": "3BR25MC086",
+      "name": "SHARANU",
+      "reportedFailedSubjects": 1,
+      "subjects": {
+        "MMC201": {
+          "cie": 40,
+          "see": 18,
+          "total": 58,
+          "grade": "F"
+        }
+      }
+    },
+    {
+      "usn": "3BR25MC087",
+      "name": "SHASHI KUMAR M",
+      "reportedFailedSubjects": 3,
+      "subjects": {
+        "MMC201": {
+          "cie": 37,
+          "see": 13,
+          "total": 50,
+          "grade": "F"
+        },
+        "MMC203": {
+          "cie": 42,
+          "see": 17,
+          "total": 59,
+          "grade": "F"
+        },
+        "MMC204": {
+          "cie": 38,
+          "see": 3,
+          "total": 41,
+          "grade": "F"
+        }
+      }
+    },
+    {
+      "usn": "3BR25MC089",
+      "name": "SHRIJEET F GHOTNEKAR",
+      "reportedFailedSubjects": 2,
+      "subjects": {
+        "MMCL206": {
+          "cie": 44,
+          "see": "AB",
+          "total": 44,
+          "grade": "F"
+        },
+        "MMCL207": {
+          "cie": 40,
+          "see": "AB",
+          "total": 40,
+          "grade": "F"
+        }
+      }
+    },
+    {
+      "usn": "3BR25MC099",
+      "name": "U M PAVAN KUMAR",
+      "reportedFailedSubjects": 1,
+      "subjects": {
+        "MMC203": {
+          "cie": 45,
+          "see": 17,
+          "total": 62,
+          "grade": "X"
+        }
+      }
+    },
+    {
+      "usn": "3BR25MC100",
+      "name": "USHA",
+      "reportedFailedSubjects": 2,
+      "subjects": {
+        "MMC201": {
+          "cie": 38,
+          "see": 13,
+          "total": 51,
+          "grade": "F"
+        },
+        "MMC203": {
+          "cie": 39,
+          "see": 18,
+          "total": 57,
+          "grade": "F"
+        }
+      }
+    },
+    {
+      "usn": "3BR25MC101",
+      "name": "USHARANI H K",
+      "reportedFailedSubjects": 2,
+      "subjects": {
+        "MMC201": {
+          "cie": 38,
+          "see": 4,
+          "total": 42,
+          "grade": "F"
+        },
+        "MMC203": {
+          "cie": 39,
+          "see": 18,
+          "total": 57,
+          "grade": "F"
+        }
+      }
+    },
+    {
+      "usn": "3BR25MC107",
+      "name": "Y RASAMMA",
+      "reportedFailedSubjects": 2,
+      "subjects": {
+        "MMC201": {
+          "cie": 38,
+          "see": 6,
+          "total": 44,
+          "grade": "F"
+        },
+        "MMC203": {
+          "cie": 37,
+          "see": 18,
+          "total": 55,
+          "grade": "F"
+        }
+      }
+    },
+    {
+      "usn": "3BR25MC108",
+      "name": "YASAR ARAFATH",
+      "reportedFailedSubjects": 3,
+      "subjects": {
+        "MMC203": {
+          "cie": 33,
+          "see": 18,
+          "total": 51,
+          "grade": "F"
+        },
+        "MMCL206": {
+          "cie": 44,
+          "see": "AB",
+          "total": 44,
+          "grade": "F"
+        },
+        "MMCL207": {
+          "cie": 40,
+          "see": "AB",
+          "total": 40,
+          "grade": "F"
+        }
+      }
+    }
+  ],
+  "makeup": [
+    {
+      "usn": "3BR25MC003",
+      "name": "ABHISHEK MAHANTESH AKKI",
+      "reportedFailedSubjects": 1,
+      "subjects": {
+        "MMC203": {
+          "cie": 44,
+          "see": 15,
+          "total": 59,
+          "grade": "F"
+        }
+      }
+    },
+    {
+      "usn": "3BR25MC022",
+      "name": "BOLLINENI ASWINI",
+      "reportedFailedSubjects": 1,
+      "subjects": {
+        "MMC201": {
+          "cie": 41,
+          "see": 17,
+          "total": 58,
+          "grade": "F"
+        }
+      }
+    },
+    {
+      "usn": "3BR25MC027",
+      "name": "FARIYA FATHIMA",
+      "reportedFailedSubjects": "4 + 1 (1st SEM - DMS)",
+      "subjects": {
+        "MMC201": {
+          "cie": 38,
+          "see": 7,
+          "total": 45,
+          "grade": "F"
+        },
+        "MMC202": {
+          "cie": 34,
+          "see": 17,
+          "total": 51,
+          "grade": "F"
+        },
+        "MMC203": {
+          "cie": 38,
+          "see": 9,
+          "total": 47,
+          "grade": "F"
+        },
+        "MMC205": {
+          "cie": 37,
+          "see": 12,
+          "total": 49,
+          "grade": "F"
+        }
+      }
+    },
+    {
+      "usn": "3BR25MC032",
+      "name": "GANESH B",
+      "reportedFailedSubjects": 4,
+      "subjects": {
+        "MMC201": {
+          "cie": 38,
+          "see": 15,
+          "total": 53,
+          "grade": "F"
+        },
+        "MMC202": {
+          "cie": 35,
+          "see": 13,
+          "total": 48,
+          "grade": "F"
+        },
+        "MMC203": {
+          "cie": 38,
+          "see": 11,
+          "total": 49,
+          "grade": "F"
+        },
+        "MMC204": {
+          "cie": 39,
+          "see": 8,
+          "total": 47,
+          "grade": "F"
+        }
+      }
+    },
+    {
+      "usn": "3BR25MC039",
+      "name": "K GURURAJ",
+      "reportedFailedSubjects": 1,
+      "subjects": {
+        "MMC201": {
+          "cie": 40,
+          "see": 18,
+          "total": 58,
+          "grade": "F"
+        }
+      }
+    },
+    {
+      "usn": "3BR25MC041",
+      "name": "K MOHAMMED KHIZAR",
+      "reportedFailedSubjects": 1,
+      "subjects": {
+        "MMC201": {
+          "cie": 44,
+          "see": 16,
+          "total": 60,
+          "grade": "F"
+        }
+      }
+    },
+    {
+      "usn": "3BR25MC073",
+      "name": "R YUGDEEP",
+      "reportedFailedSubjects": 1,
+      "subjects": {
+        "MMC203": {
+          "cie": 40,
+          "see": 12,
+          "total": 52,
+          "grade": "F"
+        },
+        "MMCL207": {
+          "cie": 48,
+          "see": 40,
+          "total": 88,
+          "grade": "A+"
+        }
+      }
+    },
+    {
+      "usn": "3BR25MC078",
+      "name": "SAI GANESH REDDY K",
+      "reportedFailedSubjects": 0,
+      "subjects": {
+        "MMC201": {
+          "cie": 46,
+          "see": 21,
+          "total": 67,
+          "grade": "B+"
+        }
+      }
+    },
+    {
+      "usn": "3BR25MC081",
+      "name": "SAMUEL U",
+      "reportedFailedSubjects": 3,
+      "subjects": {
+        "MMC201": {
+          "cie": 39,
+          "see": 17,
+          "total": 56,
+          "grade": "F"
+        },
+        "MMC203": {
+          "cie": 40,
+          "see": 14,
+          "total": 54,
+          "grade": "F"
+        },
+        "MMCL207": {
+          "cie": 41,
+          "see": 10,
+          "total": 51,
+          "grade": "F"
+        }
+      }
+    },
+    {
+      "usn": "3BR25MC083",
+      "name": "SANDEEP KULKARNI",
+      "reportedFailedSubjects": 0,
+      "subjects": {
+        "MMC203": {
+          "cie": 46,
+          "see": 24,
+          "total": 70,
+          "grade": "A"
+        }
+      }
+    },
+    {
+      "usn": "3BR25MC085",
+      "name": "SHAIK JEELAN K",
+      "reportedFailedSubjects": 3,
+      "subjects": {
+        "MMC201": {
+          "cie": 35,
+          "see": 8,
+          "total": 43,
+          "grade": "F"
+        },
+        "MMC203": {
+          "cie": 37,
+          "see": 12,
+          "total": 49,
+          "grade": "F"
+        },
+        "MMC205": {
+          "cie": 34,
+          "see": 11,
+          "total": 45,
+          "grade": "F"
+        }
+      }
+    },
+    {
+      "usn": "3BR25MC086",
+      "name": "SHARANU",
+      "reportedFailedSubjects": 1,
+      "subjects": {
+        "MMC201": {
+          "cie": 40,
+          "see": 18,
+          "total": 58,
+          "grade": "F"
+        }
+      }
+    },
+    {
+      "usn": "3BR25MC087",
+      "name": "SHASHI KUMAR M",
+      "reportedFailedSubjects": 3,
+      "subjects": {
+        "MMC201": {
+          "cie": 37,
+          "see": 13,
+          "total": 50,
+          "grade": "F"
+        },
+        "MMC203": {
+          "cie": 42,
+          "see": 17,
+          "total": 59,
+          "grade": "F"
+        },
+        "MMC204": {
+          "cie": 38,
+          "see": 3,
+          "total": 41,
+          "grade": "F"
+        }
+      }
+    },
+    {
+      "usn": "3BR25MC089",
+      "name": "SHRIJEET F GHOTNEKAR",
+      "reportedFailedSubjects": 2,
+      "subjects": {
+        "MMCL206": {
+          "cie": 44,
+          "see": "AB",
+          "total": 44,
+          "grade": "F"
+        },
+        "MMCL207": {
+          "cie": 40,
+          "see": "AB",
+          "total": 40,
+          "grade": "F"
+        }
+      }
+    },
+    {
+      "usn": "3BR25MC099",
+      "name": "U M PAVAN KUMAR",
+      "reportedFailedSubjects": 0,
+      "subjects": {
+        "MMC203": {
+          "cie": 45,
+          "see": 29,
+          "total": 74,
+          "grade": "A"
+        }
+      }
+    },
+    {
+      "usn": "3BR25MC100",
+      "name": "USHA",
+      "reportedFailedSubjects": 2,
+      "subjects": {
+        "MMC201": {
+          "cie": 38,
+          "see": 13,
+          "total": 51,
+          "grade": "F"
+        },
+        "MMC203": {
+          "cie": 39,
+          "see": 18,
+          "total": 57,
+          "grade": "F"
+        }
+      }
+    },
+    {
+      "usn": "3BR25MC101",
+      "name": "USHARANI H K",
+      "reportedFailedSubjects": 2,
+      "subjects": {
+        "MMC201": {
+          "cie": 38,
+          "see": 4,
+          "total": 42,
+          "grade": "F"
+        },
+        "MMC203": {
+          "cie": 39,
+          "see": 18,
+          "total": 57,
+          "grade": "F"
+        }
+      }
+    },
+    {
+      "usn": "3BR25MC107",
+      "name": "Y RASAMMA",
+      "reportedFailedSubjects": 2,
+      "subjects": {
+        "MMC201": {
+          "cie": 38,
+          "see": 6,
+          "total": 44,
+          "grade": "F"
+        },
+        "MMC203": {
+          "cie": 37,
+          "see": 18,
+          "total": 55,
+          "grade": "F"
+        }
+      }
+    },
+    {
+      "usn": "3BR25MC108",
+      "name": "YASAR ARAFATH",
+      "reportedFailedSubjects": 3,
+      "subjects": {
+        "MMC203": {
+          "cie": 33,
+          "see": 18,
+          "total": 51,
+          "grade": "F"
+        },
+        "MMCL206": {
+          "cie": 44,
+          "see": "AB",
+          "total": 44,
+          "grade": "F"
+        },
+        "MMCL207": {
+          "cie": 40,
+          "see": "AB",
+          "total": 40,
+          "grade": "F"
+        }
+      }
+    }
+  ]
+}

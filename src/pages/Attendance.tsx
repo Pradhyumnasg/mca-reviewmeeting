@@ -16,7 +16,7 @@ type Student = { usn: string; name: string; subjects: Record<string, SubjectReco
 const students = source.students as Student[];
 const marksBands = ["≤18 marks", ">18–29 marks", "≥30 marks", "Absent"];
 const attendanceBands = ["≤25%", ">25–50%", ">50–74%", "≥75%"];
-const colors = ["#a35241", "#c49356", "#347969", "#8b9290"];
+const colors = ["#e05a67", "#e5a51a", "#0d9488", "#8b7dd8"];
 const chartConfig = {
   low: { label: marksBands[0], color: colors[0] },
   middle: { label: marksBands[1], color: colors[1] },
