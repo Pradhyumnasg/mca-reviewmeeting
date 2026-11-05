@@ -9,7 +9,7 @@ test('all 17 image entries retain supplied marks and known student/subject keys'
   const expected = [
     ['022', 'MMC201', 41, 17, 58, 'F'],
     ['027', 'MMC201', 38, 7, 45, 'F'], ['027', 'MMC202', 34, 17, 51, null], ['027', 'MMC205', 37, 12, 49, 'F'],
-    ['032', 'MMC201', 38, 15, 53, 'F'], ['032', 'MMC202', 39, 8, 47, 'F'], ['032', 'MMC204', 39, 8, 47, 'F'],
+    ['032', 'MMC201', 38, 15, 53, 'F'], ['032', 'MMC202', 35, 13, 48, 'F'], ['032', 'MMC204', 39, 8, 47, 'F'],
     ['041', 'MMC201', 44, 16, 60, 'F'], ['081', 'MMC201', 39, 17, 56, 'F'],
     ['085', 'MMC201', 35, 8, 43, 'F'], ['085', 'MMC205', 34, 11, 45, 'F'],
     ['086', 'MMC201', 40, 18, 58, 'F'],
@@ -38,12 +38,12 @@ test('Python names map explicitly to workbook students, including Usha Rani HK',
   assert.notEqual(pythonStudentUsns.Usha, pythonStudentUsns['Usha Rani HK']);
 });
 
-test('conflicting Java marks are detected in both sittings without changing either source', () => {
+test('corrected Java feedback matches both workbook sittings without changing workbook marks', () => {
   const note = subjectFeedback['3BR25MC032'].MMC202;
   for (const records of [source.original, source.makeup]) {
     const marks = records.find(student => student.usn === '3BR25MC032').subjects.MMC202;
     const before = structuredClone(marks);
-    assert.deepEqual(differingFeedbackFields(note, marks), ['cie', 'see', 'total']);
+    assert.deepEqual(differingFeedbackFields(note, marks), []);
     assert.deepEqual(marks, before);
     assert.deepEqual([marks.cie, marks.see, marks.total], [35, 13, 48]);
   }

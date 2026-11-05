@@ -28,7 +28,7 @@ export const subjectFeedback: Record<string, Record<string, SubjectFeedback>> = 
   },
   "3BR25MC032": {
     MMC201: { cie: 38, see: 15, total: 53, grade: "F", reason: "Faced difficulty in learning programming." },
-    MMC202: { cie: 39, see: 8, total: 47, grade: "F", reason: "Did not prepare well." },
+    MMC202: { cie: 35, see: 13, total: 48, grade: "F", reason: "Did not prepare well." },
     MMC204: { cie: 39, see: 8, total: 47, grade: "F", reason: "Did not prepare well." },
   },
   "3BR25MC041": {
