@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { ArrowRight, ArrowUpRight, BookOpen, Lightbulb, Users } from "lucide-react";
+import { ArrowRight, ArrowUpRight, BookOpen, Download, Lightbulb, Users } from "lucide-react";
 import campus from "@/assets/college-building.webp";
 
 const Index = () => <div className="home-page">
@@ -16,8 +16,9 @@ const Index = () => <div className="home-page">
     <div className="grid gap-10 lg:grid-cols-[.85fr_1.15fr]">
       <div><p className="eyebrow">Our department</p><h2 id="department-heading" className="text-4xl md:text-5xl mt-5">Master of Computer Applications</h2><p className="mt-6 text-muted-foreground leading-relaxed">The MCA department at BITM combines computer science foundations with practical application. Students build their skills through laboratory work, industry projects, and internship opportunities.</p><p className="mt-4 text-muted-foreground leading-relaxed">Faculty guide students in programming, problem solving, and research in AI, machine learning, and data science.</p><Link to="/about-mca" className="btn-primary inline-flex gap-3 mt-7">Explore the department<ArrowRight size={17} /></Link></div>
       <div className="space-y-5">
-        <article className="agenda-card" data-tone="teal"><p className="eyebrow mb-3">Our vision</p><h3 className="text-xl font-semibold mb-3">Education for the challenges ahead.</h3><p className="text-muted-foreground leading-relaxed">To prepare students for the challenges of the future, while fostering innovation and advancing technology, through education.</p></article>
-        <article className="agenda-card" data-tone="violet"><p className="eyebrow mb-3">Our mission</p><ul className="space-y-3 text-muted-foreground leading-relaxed list-disc pl-5"><li>Impart high-standard, value-based technical education in Computer Applications.</li><li>Develop ethical, motivated, and skilled postgraduates through theory and practical learning.</li><li>Empower professionals to serve society through research and innovation.</li></ul></article>
+        <article className="agenda-card" data-tone="teal"><p className="eyebrow mb-3">Our vision</p><p className="text-muted-foreground leading-relaxed">To be a Centre of excellence in computer applications education, innovation, and research, nurturing competent and responsible professionals for sustainable digital transformation</p></article>
+        <article className="agenda-card" data-tone="violet"><p className="eyebrow mb-3">Our mission</p><ul className="space-y-4 text-muted-foreground leading-relaxed"><li><strong className="text-foreground">M1:</strong> To provide quality education in computer applications through contemporary curriculum, innovative teaching-learning practices, and experiential learning.</li><li><strong className="text-foreground">M2:</strong> To develop students technical, professional, ethical, and lifelong learning skills through industry interaction, academic collaboration, and continuous skill development.</li><li><strong className="text-foreground">M3:</strong> To promote research, innovation, entrepreneurship, and technology-driven solutions for addressing societal and industry needs and supporting sustainable digital development.</li></ul></article>
+        <a href="/documents/mca-vision-and-mission.docx" download className="inline-flex items-center gap-2 text-sm font-semibold text-primary"><Download size={16} aria-hidden="true" />Download vision and mission document</a>
       </div>
     </div>
     <div className="grid gap-5 md:grid-cols-3 mt-10">{[
