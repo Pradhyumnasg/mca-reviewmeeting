@@ -1,19 +1,38 @@
 import PageHeader from "@/components/common/PageHeader";
-import { CalendarDays, Compass, GraduationCap, Sparkles, Target } from "lucide-react";
+import { Award, BookOpen, GraduationCap, Users } from "lucide-react";
 
-const milestones = [
-  { title: "A new beginning", label: "Batch inauguration", timing: "12 November 2026", icon: GraduationCap, tone: "blue", description: "Welcome the MCA batch of 2026–28 on 12 November 2026, marking the beginning of a new chapter in learning and professional growth." },
-  { title: "Start with confidence", label: "10-day orientation", timing: "For the incoming batch", icon: Compass, tone: "teal", description: "Ten days of orientation will help incoming students understand the programme, settle into campus life, and begin their MCA journey with clarity and confidence." },
-  { title: "Connect beyond the classroom", label: "Cultural experiences", timing: "Planned activities", icon: Sparkles, tone: "violet", description: "Cultural events will bring students together, encouraging creative expression, collaboration, and a strong sense of belonging within the department." },
-  { title: "Build skills with purpose", label: "Focused student training", timing: "Planned training", icon: Target, tone: "amber", description: "Focused training will strengthen core skills through structured learning and practice, preparing students to approach academic and professional challenges with confidence." },
+const activities = [
+  { title: "Patent publications", target: 4, achieved: 2, icon: Award, tone: "amber" },
+  { title: "Paper publications in Scopus-indexed conferences / journals", target: 10, achieved: 10, icon: BookOpen, tone: "violet" },
+  { title: "FDP / workshops for faculty", target: 10, achieved: 12, icon: Users, tone: "teal" },
+  { title: "Workshops for students", target: 6, achieved: 3, icon: GraduationCap, tone: "blue" },
 ];
+
+const count = (value: number) => String(value).padStart(2, "0");
 
 export default function Roadmap() {
   return <div>
-    <PageHeader number="06" title="Roadmap" description="Welcoming the 2026–28 batch. Building the foundations for what comes next." />
-    <div className="container px-4 md:px-8 pb-12">
-      <section className="roadmap-intro" aria-labelledby="roadmap-intro-title"><div><p className="roadmap-cohort">MCA · Batch 2026–28</p><h2 id="roadmap-intro-title">A confident start.<br /><span>A purposeful journey.</span></h2><p>From the first welcome to focused skill development, every step is designed to help students learn, connect, and grow.</p></div><div className="roadmap-date"><CalendarDays size={21} aria-hidden="true" /><span>November</span><strong>12</strong><time dateTime="2026-11-12">2026 · Inauguration</time></div></section>
-      <ol className="roadmap-timeline" aria-label="Plans for the new batch">{milestones.map((milestone, index) => <li key={milestone.label} data-tone={milestone.tone}><span className="roadmap-step" aria-hidden="true">0{index + 1}</span><article className="roadmap-milestone"><div className="roadmap-milestone-top"><span className="roadmap-icon"><milestone.icon size={23} aria-hidden="true" /></span><span className="roadmap-timing">{milestone.timing}</span></div><p className="eyebrow mt-5">{milestone.label}</p><h3>{milestone.title}</h3><p className="roadmap-description">{milestone.description}</p></article></li>)}</ol>
-    </div>
+    <PageHeader number="06" title="Roadmap" description="Department targets and achievements · January–December 2026" />
+    <section className="container px-4 md:px-8 pb-12" aria-labelledby="annual-targets">
+      <div className="mb-6">
+        <p className="eyebrow">MCA · Annual progress</p>
+        <h2 id="annual-targets" className="text-2xl mt-2">Research, development and student learning</h2>
+      </div>
+      <div className="grid sm:grid-cols-2 gap-5">
+        {activities.map(activity => {
+          const percent = Math.round(activity.achieved / activity.target * 100);
+          return <article key={activity.title} data-tone={activity.tone} className="agenda-card flex flex-col">
+            <activity.icon size={26} className="mb-4" aria-hidden="true" />
+            <h3 className="text-lg font-semibold mb-6">{activity.title}</h3>
+            <dl className="grid grid-cols-2 gap-4 mt-auto mb-5">
+              <div><dt className="text-sm text-muted-foreground">Target</dt><dd className="text-3xl font-semibold mt-1">{count(activity.target)}</dd></div>
+              <div><dt className="text-sm text-muted-foreground">Achieved</dt><dd className="text-3xl font-semibold mt-1">{count(activity.achieved)}</dd></div>
+            </dl>
+            <div className="metric-track" aria-hidden="true"><div className="metric-fill" style={{ width: `${Math.min(percent, 100)}%` }} /></div>
+            <p className="text-sm mt-3 text-muted-foreground">{percent}% of target achieved{activity.achieved > activity.target ? ` · ${activity.achieved - activity.target} above target` : ""}</p>
+          </article>;
+        })}
+      </div>
+    </section>
   </div>;
 }
