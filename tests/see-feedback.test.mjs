@@ -5,7 +5,7 @@ import { subjectFeedback, pythonStudentUsns, getSubjectFeedback, differingFeedba
 
 const source = JSON.parse(readFileSync(new URL('../src/data/see-results.json', import.meta.url), 'utf8'));
 
-test('all 17 image entries retain supplied marks and known student/subject keys', () => {
+test('all 28 image entries retain supplied marks and known student/subject keys', () => {
   const expected = [
     ['022', 'MMC201', 41, 17, 58, 'F'],
     ['027', 'MMC201', 38, 7, 45, 'F'], ['027', 'MMC202', 34, 17, 51, null], ['027', 'MMC205', 37, 12, 49, 'F'],
@@ -16,6 +16,17 @@ test('all 17 image entries retain supplied marks and known student/subject keys'
     ['087', 'MMC201', 37, 13, 50, 'F'], ['087', 'MMC204', 38, 3, 41, 'F'],
     ['100', 'MMC201', 38, 13, 51, 'F'], ['101', 'MMC201', 38, 4, 42, 'F'], ['107', 'MMC201', 38, 6, 44, 'F'],
   ];
+  expected.push(['003', 'MMC203', 44, 15, 59, 'F']);
+  expected.push(['027', 'MMC203', 38, 9, 47, 'F']);
+  expected.push(['032', 'MMC203', 38, 11, 49, 'F']);
+  expected.push(['073', 'MMC203', 40, 12, 52, 'F']);
+  expected.push(['081', 'MMC203', 40, 14, 54, 'F']);
+  expected.push(['085', 'MMC203', 37, 12, 49, 'F']);
+  expected.push(['087', 'MMC203', 42, 17, 59, 'F']);
+  expected.push(['100', 'MMC203', 39, 18, 57, 'F']);
+  expected.push(['101', 'MMC203', 39, 18, 57, 'F']);
+  expected.push(['107', 'MMC203', 37, 18, 55, 'F']);
+  expected.push(['108', 'MMC203', 33, 18, 51, 'F']);
   const actual = Object.entries(subjectFeedback).flatMap(([usn, subjects]) => Object.entries(subjects).map(([code, note]) => {
     assert.ok(source.original.some(student => student.usn === usn));
     assert.ok(source.makeup.some(student => student.usn === usn));
@@ -23,8 +34,8 @@ test('all 17 image entries retain supplied marks and known student/subject keys'
     assert.ok(note.reason.length > 0);
     return [usn.slice(-3), code, note.cie, note.see, note.total, note.grade];
   }));
-  assert.deepEqual(actual, expected);
-  assert.equal(Object.keys(subjectFeedback).length, 11);
+  assert.deepEqual(actual.sort(), expected.sort());
+  assert.equal(Object.keys(subjectFeedback).length, 14);
 });
 
 test('Python names map explicitly to workbook students, including Usha Rani HK', () => {
@@ -55,11 +66,19 @@ test('missing grade stays missing and missing notes stay empty', () => {
   assert.deepEqual(differingFeedbackFields(note, { ...note, grade: 'F' }), []);
   assert.deepEqual(getSubjectFeedback('3BR25MC039'), []);
   assert.deepEqual(getSubjectFeedback('unknown'), []);
-  assert.equal(source.original.filter(student => !getSubjectFeedback(student.usn).length).length, 8);
+  assert.equal(source.original.filter(student => !getSubjectFeedback(student.usn).length).length, 5);
 });
 
 test('personal circumstances are generalized', () => {
   const reasons = Object.values(subjectFeedback).flatMap(subjects => Object.values(subjects).map(note => note.reason)).join(' ');
   assert.doesNotMatch(reasons, /cancer|pregnan|mother|father|dad/i);
   assert.match(subjectFeedback['3BR25MC101'].MMC201.reason, /Health-related circumstances/);
+});
+
+ test('DSA Samuel mapping uses matching name and marks, not the mistyped image USN', () => {
+  const student = source.original.find(student => student.usn === '3BR25MC081');
+  assert.equal(student.name, 'SAMUEL U');
+  assert.deepEqual(differingFeedbackFields(subjectFeedback[student.usn].MMC203, student.subjects.MMC203), []);
+  assert.equal(subjectFeedback['3BR25MC80'], undefined);
+  assert.equal(Object.values(subjectFeedback).filter(subjects => subjects.MMC203).length, 11);
 });
